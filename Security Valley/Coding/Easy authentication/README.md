@@ -37,7 +37,7 @@ function banner(payload) {
 }
 ```
 
-Based on the code, we know that the script is written in node.js because of the require function. The process.stdin and process.stdout are global objects in Node.js.
+Based on the code, we know that the script is written in node.js because of the require function. 
 <br><br>
 Most importantly, we look at the validate function. It checks if the entered password is correct or not. The password is in decimal form, so we need to change it back to ASCII code.
 
