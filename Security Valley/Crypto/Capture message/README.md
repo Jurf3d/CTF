@@ -1,4 +1,4 @@
-# DESCRIPTION
+# Capture message
 ## Level: 1 Score 5 Category crypto
 ### We have captured a message. But what is the content??? Help us, please!
 ### Link: https://github.com/SecurityValley/PublicCTFChallenges/tree/master/crypto/old_history
