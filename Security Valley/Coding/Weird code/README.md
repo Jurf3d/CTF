@@ -95,3 +95,6 @@ if __name__ == '__main__':
 <br>Upon running the script, we get the flag.<br>
 Flag: SecVal{pythons_byte_code} <br><br>
 Overall, I learnt a lot from playing this challenge.
+
+# UPDATE
+Found another writeup https://www.youtube.com/watch?v=79GfTc2tjWQ
