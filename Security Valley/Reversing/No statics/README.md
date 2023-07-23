@@ -23,7 +23,7 @@ Since it has `pie executable` enabled, which means that we need to run the progr
 I opened the file in Ghidra to look at the code. In the main function, we see that the `strcmp` is being done at line 27. <br><br>
 ![image](https://github.com/Jurf3d/CTF/assets/139546647/03d33d2f-db35-48ca-8b8b-8d1e89f8ece6) <br>
 
-Next, I run the program in pwndbg and set the breakpoint at `strcmp`. <br><br>
+Next, I run the program in a debugger and set the breakpoint at `strcmp`. <br><br>
 ![image](https://github.com/Jurf3d/CTF/assets/139546647/b4c56e8c-8a2d-4d97-a6bb-eaebbcc21835) <br><br>
 ![image](https://github.com/Jurf3d/CTF/assets/139546647/f314a0f9-ac0a-41ef-82df-a845d00a9a7b)
 
