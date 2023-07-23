@@ -11,7 +11,7 @@ part first `(uVar2 = FUN_00401775)`. So lets take a loot at the function of that
 ![image](https://github.com/Jurf3d/CTF/assets/139546647/9745a165-3b2d-421b-9a1b-ff07b1ef77ad)
 
 <br> The part that really caught my attention is the `for` loop. It seems like it iterates over each character
-in the string pointed to by `pcVar1`. If a character is a lowercase of uppercase letter (as per ASCII values),
+in the string pointed to by `pcVar1`. If a character is a lowercase or uppercase letter (as per ASCII values),
 it modifies the character. In ASCII, '`' is just before 'a' and '{' is just after 'z'. Similarly, '@' is just before 'A' and '[' is just after 'Z'. 
 Therefore, this condition checks if the character is an uppercase letter ('A' to 'Z') or a lowercase letter ('a' to 'z'). 
 If the character is between 'a' and 'm' or 'A' and 'M', it shifts the character 13 places forward.
