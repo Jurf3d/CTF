@@ -6,7 +6,7 @@ Upon loading it into ghidra, we can see the following: <br><br>
 
 <br><br>
 Now we can see there is a lot of functions and it takes time to really know the purpose of each function. For me, I have the habit of looking at the most important 
-part first `(uVar2 = FUN_00401775)`. So lets take a loot at the function of that. <br><br>
+part first `(uVar2 = FUN_00401775)`. <br><br>
 
 ![image](https://github.com/Jurf3d/CTF/assets/139546647/9745a165-3b2d-421b-9a1b-ff07b1ef77ad)
 
